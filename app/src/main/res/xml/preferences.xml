@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/reading">
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:icon="@drawable/ic_settings_brightness"
+            android:key="prefs_stay_awake"
+            android:summary="Prevent screen turn off while reading"
+            android:title="Stay awake" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_settings_last_page"
+            android:key="prefs_remember_last_page"
+            android:summary="Pick up where you left off"
+            android:title="Remember last page" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_settings_fullscreen"
+            android:key="prefs_auto_full_screen"
+            android:summary="Automatically hide all controls in PDF view"
+            android:title="Auto full screen" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/general">
+        <ListPreference
+            android:defaultValue="en"
+            android:entries="@array/languages"
+            android:entryValues="@array/languages_entry_keys"
+            android:icon="@drawable/ic_settings_language"
+            android:key="prefs_language"
+            android:summary="English"
+            android:title="@string/language" />
+        <Preference
+            android:icon="@drawable/ic_settings_info"
+            android:key="prefs_about"
+            android:persistent="false"
+            android:title="@string/about">
+            <intent
+                android:targetClass="com.example.pdfreader.AboutActivity"
+                android:targetPackage="com.example.pdfreader" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

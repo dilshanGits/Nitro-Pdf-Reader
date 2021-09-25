@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff70ca90</color>
+    <color name="colorPrimaryDark">#ffe8ebed</color>
+    <color name="colorAccent">#ff70ca90</color>
+
+
+
+    <color name="colorEmptyStateBg">#ffededed</color>
+    <color name="colorEmptyStateTextPrimary">#ff919191</color>
+    <color name="colorLightGray">#ffe0e0e0</color>
+    <color name="colorMoreInfo">#ffdaf1e2</color>
+
+    <color name="colorSeparator">#ffe0e0e0</color>
+    <color name="colorLightGreen">#ffecf8f0</color>
+    <color name="colorDarkGreen">#ff379558</color>
+    <color name="colorDarkerGray">#ff616161</color>
+    <color name="colorAmber">#ffffc107</color>
+
+    <color name="colorNameOverlay">#f0ffffff</color>
+    <color name="colorDividerLight">#ffdbdbdb</color>
+    <color name="colorPDFViewBg">#ffe0e0e0</color>
+    <color name="colorTitleTextLight">#ff212121</color>
+    <color name="colorPrimaryNight">#ff243447</color>
+    <color name="colorPrimaryDarkNight">#ff192532</color>
+    <color name="colorTitleTextNight">#c2ffffff</color>
+
+    <color name="colorSelectedImage">#b4ffffff</color>
+    <color name="colorSelectedPDFs">#ffeeeeee</color>
+    <color name="color54">#8a000000</color>
+
+
+
+
+
+
+</resources>
